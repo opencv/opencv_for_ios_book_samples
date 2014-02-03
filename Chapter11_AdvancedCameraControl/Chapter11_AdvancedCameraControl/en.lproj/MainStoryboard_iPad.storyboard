@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HLF-UP-ncs"/>
+                        <viewControllerLayoutGuide type="bottom" id="R33-YX-7wN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8a-HC-HbG">
+                                <rect key="frame" x="0.0" y="44" width="768" height="936"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T32-8I-Hbj">
+                                <rect key="frame" x="0.0" y="980" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem title="Start capture" id="o8m-vC-Fml">
+                                        <connections>
+                                            <action selector="startCaptureButtonPressed:" destination="2" id="ldE-BC-S0t"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop capture" id="AMi-LY-VFO">
+                                        <connections>
+                                            <action selector="stopCaptureButtonPressed:" destination="2" id="Ss3-T0-M3u"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Rotation mode" id="CeC-41-Shq">
+                                        <connections>
+                                            <action selector="rotationButtonPressed:" destination="2" id="587-Xz-KBP"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OWK-3Q-s4Z">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem title="Lock focus" id="YY0-a1-uxB">
+                                        <connections>
+                                            <action selector="actionLockFocus:" destination="2" id="cT2-h9-Ucv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Lock exposure" id="F7R-Fd-mZD">
+                                        <connections>
+                                            <action selector="actionLockExposure:" destination="2" id="ufg-d0-UnD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Lock balance" id="dtS-I1-qSh">
+                                        <connections>
+                                            <action selector="actionLockBalance:" destination="2" id="DHk-eu-R6s"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K8a-HC-HbG" firstAttribute="top" secondItem="OWK-3Q-s4Z" secondAttribute="bottom" id="1UM-QK-YpM"/>
+                            <constraint firstItem="OWK-3Q-s4Z" firstAttribute="top" secondItem="5" secondAttribute="top" id="8Mp-9I-Qm8"/>
+                            <constraint firstItem="T32-8I-Hbj" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="DId-Sg-NPs"/>
+                            <constraint firstItem="T32-8I-Hbj" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" id="FpP-Av-iKM"/>
+                            <constraint firstItem="T32-8I-Hbj" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="GFd-tz-2mF"/>
+                            <constraint firstItem="K8a-HC-HbG" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="WmW-qQ-l8c"/>
+                            <constraint firstItem="OWK-3Q-s4Z" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="XtJ-qy-q6G"/>
+                            <constraint firstItem="T32-8I-Hbj" firstAttribute="top" secondItem="K8a-HC-HbG" secondAttribute="bottom" id="Y6k-eM-Sib"/>
+                            <constraint firstItem="OWK-3Q-s4Z" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="fCT-Lv-7eu"/>
+                            <constraint firstItem="K8a-HC-HbG" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="yBo-Ca-7jF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="K8a-HC-HbG" id="QUm-3F-y9x"/>
+                        <outlet property="lockBalanceButton" destination="dtS-I1-qSh" id="pTe-ul-F97"/>
+                        <outlet property="lockExposureButton" destination="F7R-Fd-mZD" id="hwI-Lr-soi"/>
+                        <outlet property="lockFocusButton" destination="YY0-a1-uxB" id="D9d-RS-jSc"/>
+                        <outlet property="rotationButton" destination="CeC-41-Shq" id="iPp-d4-ze3"/>
+                        <outlet property="startCaptureButton" destination="o8m-vC-Fml" id="wjC-6s-eD9"/>
+                        <outlet property="stopCaptureButton" destination="AMi-LY-VFO" id="vNM-uf-5iq"/>
+                        <outlet property="toolbar" destination="T32-8I-Hbj" id="WBz-QD-pcG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

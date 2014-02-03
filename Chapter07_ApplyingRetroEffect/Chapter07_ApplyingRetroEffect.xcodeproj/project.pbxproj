@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831B4DBA17438D09004A000D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831B4DB917438D09004A000D /* UIKit.framework */; };
+		831B4DBC17438D09004A000D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831B4DBB17438D09004A000D /* Foundation.framework */; };
+		831B4DBE17438D09004A000D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831B4DBD17438D09004A000D /* CoreGraphics.framework */; };
+		831B4DC417438D09004A000D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 831B4DC217438D09004A000D /* InfoPlist.strings */; };
+		831B4DC617438D09004A000D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 831B4DC517438D09004A000D /* main.m */; };
+		831B4DCA17438D09004A000D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 831B4DC917438D09004A000D /* AppDelegate.m */; };
+		831B4DCC17438D09004A000D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 831B4DCB17438D09004A000D /* Default.png */; };
+		831B4DCE17438D09004A000D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831B4DCD17438D09004A000D /* Default@2x.png */; };
+		831B4DD017438D09004A000D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831B4DCF17438D09004A000D /* Default-568h@2x.png */; };
+		831B4DD317438D09004A000D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831B4DD117438D09004A000D /* MainStoryboard_iPhone.storyboard */; };
+		831B4DD617438D09004A000D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831B4DD417438D09004A000D /* MainStoryboard_iPad.storyboard */; };
+		831B4DD917438D09004A000D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831B4DD817438D09004A000D /* ViewController.m */; };
+		831B4DE017438D25004A000D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 831B4DDF17438D25004A000D /* opencv2.framework */; };
+		831B4DE517438D36004A000D /* fuzzyBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 831B4DE117438D36004A000D /* fuzzyBorder.png */; };
+		831B4DE617438D36004A000D /* RetroFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831B4DE217438D36004A000D /* RetroFilter.cpp */; };
+		831B4DE717438D36004A000D /* scratches.png in Resources */ = {isa = PBXBuildFile; fileRef = 831B4DE417438D36004A000D /* scratches.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831B4DB517438D09004A000D /* Chapter07_ApplyingRetroEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter07_ApplyingRetroEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		831B4DB917438D09004A000D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		831B4DBB17438D09004A000D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		831B4DBD17438D09004A000D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		831B4DC117438D09004A000D /* Chapter07_ApplyingRetroEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chapter07_ApplyingRetroEffect-Info.plist"; sourceTree = "<group>"; };
+		831B4DC317438D09004A000D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		831B4DC517438D09004A000D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		831B4DC717438D09004A000D /* Chapter07_ApplyingRetroEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chapter07_ApplyingRetroEffect-Prefix.pch"; sourceTree = "<group>"; };
+		831B4DC817438D09004A000D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		831B4DC917438D09004A000D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		831B4DCB17438D09004A000D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		831B4DCD17438D09004A000D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		831B4DCF17438D09004A000D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		831B4DD217438D09004A000D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		831B4DD517438D09004A000D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		831B4DD717438D09004A000D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		831B4DD817438D09004A000D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		831B4DDF17438D25004A000D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv2.framework; sourceTree = "<group>"; };
+		831B4DE117438D36004A000D /* fuzzyBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuzzyBorder.png; sourceTree = "<group>"; };
+		831B4DE217438D36004A000D /* RetroFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RetroFilter.cpp; sourceTree = "<group>"; };
+		831B4DE317438D36004A000D /* RetroFilter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RetroFilter.hpp; sourceTree = "<group>"; };
+		831B4DE417438D36004A000D /* scratches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratches.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831B4DB217438D09004A000D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831B4DBA17438D09004A000D /* UIKit.framework in Frameworks */,
+				831B4DBC17438D09004A000D /* Foundation.framework in Frameworks */,
+				831B4DBE17438D09004A000D /* CoreGraphics.framework in Frameworks */,
+				831B4DE017438D25004A000D /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831B4DAA17438D09004A000D = {
+			isa = PBXGroup;
+			children = (
+				831B4DBF17438D09004A000D /* Chapter07_ApplyingRetroEffect */,
+				831B4DB817438D09004A000D /* Frameworks */,
+				831B4DB617438D09004A000D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831B4DB617438D09004A000D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831B4DB517438D09004A000D /* Chapter07_ApplyingRetroEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831B4DB817438D09004A000D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				831B4DDF17438D25004A000D /* opencv2.framework */,
+				831B4DB917438D09004A000D /* UIKit.framework */,
+				831B4DBB17438D09004A000D /* Foundation.framework */,
+				831B4DBD17438D09004A000D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		831B4DBF17438D09004A000D /* Chapter07_ApplyingRetroEffect */ = {
+			isa = PBXGroup;
+			children = (
+				831B4DE317438D36004A000D /* RetroFilter.hpp */,
+				831B4DE217438D36004A000D /* RetroFilter.cpp */,
+				831B4DC817438D09004A000D /* AppDelegate.h */,
+				831B4DC917438D09004A000D /* AppDelegate.m */,
+				831B4DD117438D09004A000D /* MainStoryboard_iPhone.storyboard */,
+				831B4DD417438D09004A000D /* MainStoryboard_iPad.storyboard */,
+				831B4DD717438D09004A000D /* ViewController.h */,
+				831B4DD817438D09004A000D /* ViewController.m */,
+				831B4DC017438D09004A000D /* Supporting Files */,
+			);
+			path = Chapter07_ApplyingRetroEffect;
+			sourceTree = "<group>";
+		};
+		831B4DC017438D09004A000D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				831B4DE117438D36004A000D /* fuzzyBorder.png */,
+				831B4DE417438D36004A000D /* scratches.png */,
+				831B4DC117438D09004A000D /* Chapter07_ApplyingRetroEffect-Info.plist */,
+				831B4DC217438D09004A000D /* InfoPlist.strings */,
+				831B4DC517438D09004A000D /* main.m */,
+				831B4DC717438D09004A000D /* Chapter07_ApplyingRetroEffect-Prefix.pch */,
+				831B4DCB17438D09004A000D /* Default.png */,
+				831B4DCD17438D09004A000D /* Default@2x.png */,
+				831B4DCF17438D09004A000D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831B4DB417438D09004A000D /* Chapter07_ApplyingRetroEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831B4DDC17438D09004A000D /* Build configuration list for PBXNativeTarget "Chapter07_ApplyingRetroEffect" */;
+			buildPhases = (
+				831B4DB117438D09004A000D /* Sources */,
+				831B4DB217438D09004A000D /* Frameworks */,
+				831B4DB317438D09004A000D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chapter07_ApplyingRetroEffect;
+			productName = Chapter07_ApplyingRetroEffect;
+			productReference = 831B4DB517438D09004A000D /* Chapter07_ApplyingRetroEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831B4DAC17438D09004A000D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alexander Shishkov & Kirill Kornyakov";
+			};
+			buildConfigurationList = 831B4DAF17438D09004A000D /* Build configuration list for PBXProject "Chapter07_ApplyingRetroEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 831B4DAA17438D09004A000D;
+			productRefGroup = 831B4DB617438D09004A000D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831B4DB417438D09004A000D /* Chapter07_ApplyingRetroEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831B4DB317438D09004A000D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831B4DC417438D09004A000D /* InfoPlist.strings in Resources */,
+				831B4DCC17438D09004A000D /* Default.png in Resources */,
+				831B4DCE17438D09004A000D /* Default@2x.png in Resources */,
+				831B4DD017438D09004A000D /* Default-568h@2x.png in Resources */,
+				831B4DD317438D09004A000D /* MainStoryboard_iPhone.storyboard in Resources */,
+				831B4DD617438D09004A000D /* MainStoryboard_iPad.storyboard in Resources */,
+				831B4DE517438D36004A000D /* fuzzyBorder.png in Resources */,
+				831B4DE717438D36004A000D /* scratches.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831B4DB117438D09004A000D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831B4DC617438D09004A000D /* main.m in Sources */,
+				831B4DCA17438D09004A000D /* AppDelegate.m in Sources */,
+				831B4DD917438D09004A000D /* ViewController.m in Sources */,
+				831B4DE617438D36004A000D /* RetroFilter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		831B4DC217438D09004A000D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831B4DC317438D09004A000D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		831B4DD117438D09004A000D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831B4DD217438D09004A000D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		831B4DD417438D09004A000D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831B4DD517438D09004A000D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		831B4DDA17438D09004A000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		831B4DDB17438D09004A000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		831B4DDD17438D09004A000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter07_ApplyingRetroEffect/Chapter07_ApplyingRetroEffect-Prefix.pch";
+				INFOPLIST_FILE = "Chapter07_ApplyingRetroEffect/Chapter07_ApplyingRetroEffect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		831B4DDE17438D09004A000D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter07_ApplyingRetroEffect/Chapter07_ApplyingRetroEffect-Prefix.pch";
+				INFOPLIST_FILE = "Chapter07_ApplyingRetroEffect/Chapter07_ApplyingRetroEffect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831B4DAF17438D09004A000D /* Build configuration list for PBXProject "Chapter07_ApplyingRetroEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831B4DDA17438D09004A000D /* Debug */,
+				831B4DDB17438D09004A000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831B4DDC17438D09004A000D /* Build configuration list for PBXNativeTarget "Chapter07_ApplyingRetroEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831B4DDD17438D09004A000D /* Debug */,
+				831B4DDE17438D09004A000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831B4DAC17438D09004A000D /* Project object */;
+}

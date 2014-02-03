@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fXn-JE-SKk"/>
+                        <viewControllerLayoutGuide type="bottom" id="zqX-CP-yyT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8a-HC-HbG">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="980"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T32-8I-Hbj">
+                                <rect key="frame" x="0.0" y="980" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem title="Start capture" id="o8m-vC-Fml">
+                                        <connections>
+                                            <action selector="startCaptureButtonPressed:" destination="2" id="ldE-BC-S0t"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop capture" id="AMi-LY-VFO">
+                                        <connections>
+                                            <action selector="stopCaptureButtonPressed:" destination="2" id="Ss3-T0-M3u"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="T32-8I-Hbj" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="DId-Sg-NPs"/>
+                            <constraint firstItem="T32-8I-Hbj" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" id="FpP-Av-iKM"/>
+                            <constraint firstItem="T32-8I-Hbj" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="GFd-tz-2mF"/>
+                            <constraint firstItem="K8a-HC-HbG" firstAttribute="top" secondItem="5" secondAttribute="top" id="S8E-6c-izx"/>
+                            <constraint firstItem="K8a-HC-HbG" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" id="SNg-o1-7oN"/>
+                            <constraint firstItem="K8a-HC-HbG" firstAttribute="leading" secondItem="5" secondAttribute="leading" id="mOi-TV-i8A"/>
+                            <constraint firstItem="T32-8I-Hbj" firstAttribute="top" secondItem="K8a-HC-HbG" secondAttribute="bottom" id="vt1-dx-aqi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="K8a-HC-HbG" id="QUm-3F-y9x"/>
+                        <outlet property="startCaptureButton" destination="o8m-vC-Fml" id="wjC-6s-eD9"/>
+                        <outlet property="stopCaptureButton" destination="AMi-LY-VFO" id="vNM-uf-5iq"/>
+                        <outlet property="toolbar" destination="T32-8I-Hbj" id="WBz-QD-pcG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter06_WorkingWithGallery/ViewController.m"
+            timestampString = "412872740.162895"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "-loadButtonPressed:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController loadButtonPressed:]"
+                  moduleName = "Chapter06_WorkingWithGallery"
+                  urlString = "file://localhost/Users/alexandershishkov/dev/book/packt/book/3848_sources/Chapter06_WorkingWithGallery/Chapter06_WorkingWithGallery/ViewController.m"
+                  timestampString = "412876868.798656"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController loadButtonPressed:]"
+                  moduleName = "Chapter06_WorkingWithGallery"
+                  urlString = "file://localhost/Users/alexandershishkov/dev/book/packt/book/3848_sources/Chapter06_WorkingWithGallery/Chapter06_WorkingWithGallery/ViewController.m"
+                  timestampString = "412876868.798982"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "926">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController loadButtonPressed:]"
+                  moduleName = "Chapter06_WorkingWithGallery"
+                  urlString = "file://localhost/Users/alexandershishkov/dev/book/packt/book/3848_sources/Chapter06_WorkingWithGallery/Chapter06_WorkingWithGallery/ViewController.m"
+                  timestampString = "412876868.799257"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter06_WorkingWithGallery/ViewController.m"
+            timestampString = "412875730.361011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "-imagePickerController:didFinishPickingMediaWithInfo:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController imagePickerController:didFinishPickingMediaWithInfo:]"
+                  moduleName = "Chapter06_WorkingWithGallery"
+                  urlString = "file://localhost/Users/alexandershishkov/dev/book/packt/book/3848_sources/Chapter06_WorkingWithGallery/Chapter06_WorkingWithGallery/ViewController.m"
+                  timestampString = "412876868.799517"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController imagePickerController:didFinishPickingMediaWithInfo:]"
+                  moduleName = "Chapter06_WorkingWithGallery"
+                  urlString = "file://localhost/Users/alexandershishkov/dev/book/packt/book/3848_sources/Chapter06_WorkingWithGallery/Chapter06_WorkingWithGallery/ViewController.m"
+                  timestampString = "412876868.799746"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "650">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController imagePickerController:didFinishPickingMediaWithInfo:]"
+                  moduleName = "Chapter06_WorkingWithGallery"
+                  urlString = "file://localhost/Users/alexandershishkov/dev/book/packt/book/3848_sources/Chapter06_WorkingWithGallery/Chapter06_WorkingWithGallery/ViewController.m"
+                  timestampString = "412876868.799976"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter06_WorkingWithGallery/ViewController.m"
+            timestampString = "412875733.184853"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-imagePickerControllerDidCancel:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController imagePickerControllerDidCancel:]"
+                  moduleName = "Chapter06_WorkingWithGallery"
+                  urlString = "file://localhost/Users/alexandershishkov/dev/book/packt/book/3848_sources/Chapter06_WorkingWithGallery/Chapter06_WorkingWithGallery/ViewController.m"
+                  timestampString = "412876868.800442"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController imagePickerControllerDidCancel:]"
+                  moduleName = "Chapter06_WorkingWithGallery"
+                  urlString = "file://localhost/Users/alexandershishkov/dev/book/packt/book/3848_sources/Chapter06_WorkingWithGallery/Chapter06_WorkingWithGallery/ViewController.m"
+                  timestampString = "412876868.800854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

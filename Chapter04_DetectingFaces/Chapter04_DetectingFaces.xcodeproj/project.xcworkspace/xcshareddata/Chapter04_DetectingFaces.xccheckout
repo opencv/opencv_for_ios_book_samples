@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6725734C-B1C9-4DB7-A82A-996E58D8D6CF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Chapter04_DetectingFaces</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DD959849-5B53-4C28-B6DD-072A690DF575</key>
+		<string>ssh://bitbucket.org/kirill_kornyakov/packt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>book/3848_sources/Chapter04_DetectingFaces/Chapter04_DetectingFaces.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DD959849-5B53-4C28-B6DD-072A690DF575</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/kirill_kornyakov/packt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DD959849-5B53-4C28-B6DD-072A690DF575</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DD959849-5B53-4C28-B6DD-072A690DF575</string>
+			<key>IDESourceControlWCCName</key>
+			<string>packt</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>66AFA124-F748-46CA-8B76-0EC61AEE50EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Chapter07_ApplyingRetroEffect</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4EEFB5D-ED7C-42B9-B82B-8964CBB02243</key>
+		<string>ssh://bitbucket.org/kirill_kornyakov/packt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>book/3848_sources/Chapter07_ApplyingRetroEffect/Chapter07_ApplyingRetroEffect.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4EEFB5D-ED7C-42B9-B82B-8964CBB02243</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/kirill_kornyakov/packt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4EEFB5D-ED7C-42B9-B82B-8964CBB02243</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4EEFB5D-ED7C-42B9-B82B-8964CBB02243</string>
+			<key>IDESourceControlWCCName</key>
+			<string>packt</string>
+		</dict>
+	</array>
+</dict>
+</plist>
